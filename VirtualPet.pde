@@ -1,21 +1,41 @@
 void setup()
 {
 size(1200,900);
+background(65,170,188);
 }
 void draw()
 {
+rotate(radians(28));
+fill(126,103,59);
+ellipse(930,30,225,600);
+rotate(radians(-28));
 fill(245,228,168);
 ellipse(900,180,200,170);
 fill(0,0,0);
 ellipse(860,160,20,20);
-fill(0,0,0);
 ellipse(940,160,20,20);
-fill(0,0,0);
 triangle(900,170,890,190,910,190);
-fill(0,0,0);
 line(860,220,900,210);
 line(900,210,940,220);
-rotate(radians(28));
+System.out.println(mouseX + " " + mouseY);//986,136//
+triangle(996,130,986,136,990,140);
+triangle(803,130,813,136,810,140);
 fill(126,103,59);
-ellipse(930,100,225,600);
+rotate(radians(23));
+ellipse(830,30,130,200);
+fill(0,0,0);
+rotate(radians(-23));
+line(743,302,768,256);
+line(763,312,791,260);
+line(781,324,810,273);
+fill(126,103,59);
+rotate(radians(15));
+ellipse(1030,160,130,200);
+fill(0,0,0);
+line(1006,115,1006,67);
+line(1029,115,1029,60);
+line(1052,115,1052,67);
+rotate(radians(-15));
+fill(126,103,59);
+ellipse(650,620,110,220);
 }
